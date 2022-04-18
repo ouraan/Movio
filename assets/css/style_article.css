@@ -251,6 +251,9 @@ body{
 }
 
 @media screen and (max-width: 500px){
+    .container{
+        padding: 20% 8% 5%;
+    }
     .title{
         padding-top: 100px;
     }
