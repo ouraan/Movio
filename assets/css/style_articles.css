@@ -75,7 +75,7 @@ footer{
 
 @media screen and (max-width: 500px){
     .container{
-        padding: 12% 4%;
+        padding: 16% 4%;
     }
     .article-post-grid{
         grid-template-columns: auto;
