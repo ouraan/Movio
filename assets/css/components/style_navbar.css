@@ -65,16 +65,19 @@ header{
 @media screen and (max-width: 500px){
     .logo{
         display: none;
+        margin: 0;
     }   
     .btn-contribute{
         display: none;
     }
     header{
         justify-content: center;
-        padding: 15px 5px 15px 5px;
-    }
+        padding: 15px 0;
+     }
     .nav-item > li{
         padding: 0;
-        justify-content: space-between;
+    }
+    .nav-item > li > a{
+        padding: 0 15px;
     }
 }
