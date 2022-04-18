@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #5e5e5e;
+}
+nav > ul > li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5e5e5e;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    position: fixed;
+}
+.logo{
+    cursor: pointer;   
+    text-decoration: none;
+    font-size: 20px;
+    color: #4f4f4f;
+    font-weight: bold;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-item > li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-item > li > a{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.nav-item > li > a:hover{
+    color: #77bb9d;
+}
+.btn-contribute{
+    padding: 9px 25px;
+    background-color: #6D9886;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 200;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.btn-contribute:hover{
+    background-color: #537e6c;
+}
+
+@media screen and (max-width: 500px){
+    .logo{
+        display: none;
+    }   
+    .btn-contribute{
+        display: none;
+    }
+}
