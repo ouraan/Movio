@@ -70,6 +70,7 @@ header{
         display: none;
     }
     header{
+        justify-content: center;
         padding: 10px 8px;
     }
 }
