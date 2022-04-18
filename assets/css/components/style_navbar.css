@@ -73,4 +73,7 @@ header{
         justify-content: center;
         padding: 10px 8px;
     }
+    .nav-item > li{
+        padding: 0 5px;
+    }
 }
